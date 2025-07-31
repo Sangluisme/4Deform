@@ -1,0 +1,14 @@
+flax==0.8.1
+jax==0.4.25
+jaxlib==0.4.25
+matplotlib
+numpy==1.24.4
+optax==0.2.1
+orbax-checkpoint==0.5.5
+scikit-image
+scipy==1.9.1
+tqdm
+trimesh==4.2.0
+pyhocon
+plyfile
+natsort==8.4.0

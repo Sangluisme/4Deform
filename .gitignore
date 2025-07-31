@@ -1,0 +1,8 @@
+data/*
+exp/*
+.vscode
+.vscode/*
+*/__pycache__
+*/__pycache__/*
+sbatch
+sbatch/*
