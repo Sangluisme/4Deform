@@ -25,7 +25,7 @@ Install jax version 0.4.25 matching your CUDA version as described here. For exa
 ```
 pip install -U "jax[cuda12]"
 ```
-Other jax versions may also work, but have not been tested.
+We used *cuda 12.4 + cudnn v8.9.6*, Other jax versions may also work, but have not been tested.
 
 **Trouble shooting**
 
