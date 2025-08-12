@@ -15,13 +15,13 @@ University of Bonn
 
 ## 🛠️ Setup
 
-install the package using
+Install the package using
 ```
 pip install -r requirements.txt
 ```
 Please test if the `jax` successfully with `cudnn`. 
 
-Install jax version 0.4.25 matching your CUDA version as described here. For example for CUDA 12:
+Install jax version 0.4.25 matching your CUDA version as described here. For example, for CUDA 12:
 ```
 pip install -U "jax[cuda12]"
 ```
@@ -33,7 +33,7 @@ We used *cuda 12.4 + cudnn v8.9.6*, Other jax versions may also work, but have n
 ```
 pip install natsort
 ```
-- Please make sure you successfully installed the comparable cuda version with you Jax, otherwise error ocurrs. 
+- Please make sure you successfully installed the comparable cuda version with you Jax, otherwise an error occurs. 
 
 ## 📏 Data Preparation
 
