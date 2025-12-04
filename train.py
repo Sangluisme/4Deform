@@ -255,7 +255,7 @@ def run(conf, checkpoint_manager, plot_manager, dataset):
     if conf.training.fine_tune:
         print('start fine tuning......')
         start_epoch = np.max([conf.training.nepochs, start_epoch])
-            
+        ratio = [1.0, 1.0]
         for epoch in tqdm(range(start_epoch, conf.training.full+1)):
             
             sub_batch_metrics = {}
